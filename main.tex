@@ -1,0 +1,84 @@
+%\documentclass[English, 11pt]{article}
+\documentclass[english, 11pt]{article}
+\usepackage{babel}
+\usepackage[useregional]{datetime2}
+
+\usepackage{graphicx,txfonts} % Required for inserting images
+\setlength{\parindent}{0pt}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}
+\usepackage[left=1.10cm,top=1.10cm,right=1.10cm,bottom=1.20cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{pifont}
+\usepackage{color}
+%for heart icon
+\newcommand{\heart}{\ensuremath\varheartsuit}
+%for tiny bullets 
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\begin{document}
+%\author[]{Mohammed Laeeq Shaikh}
+\pagestyle{fancy}
+%... then configure it.
+% Clear all headers and footers (see also \fancyhf{})
+\fancyhead{}
+\fancyfoot{}
+% Set the Centre header location but do not specify O or E
+%\footrulewidth
+%\renewcommand{\headruleskip}{10mm}
+%\renewcommand{\footruleskip}{10pt}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+
+\fancyfoot[C]{Mohammed Laeeq Shaikh - Resume}
+\fancyfoot[L]{\today}
+% Set the Left footer location but do not specify O or E
+\fancyfoot[R]{Page: \thepage}
+
+\begin{center}
+    \textbf{Mohammed Laeeq Shaikh}\\ 
+\end{center}
+
+\begin{center}
+\faEnvelope \space {\href{mailto:laeeqentc@gmail.com}{laeeqentc@gmail.com}}
+\space \faMobile \space +91 8999195755 
+\space \faGithub \space \href{https://github.com/laeeqentc}{GitHub}
+\space \faLinkedin \space \href{https://www.linkedin.com/in/mohdlaeeq/}{Linkedin} 
+\faHome \space {\href{https://laeeqsworld.blogspot.com/}{Website}}
+
+\end{center}
+
+\hrulefill
+\input{resume/summary_}
+
+\hrulefill
+\input{resume/tech_skills_}
+
+\hrulefill
+\newpage
+\input{resume/work_exp_}
+
+\hrulefill
+\input{resume/my_projects_}
+
+%\hrulefill
+%\input{resume/company_projects}
+
+\hrulefill
+\input{resume/education_}
+
+%\hrulefill
+%\input{resume/awards_}
+
+\hrulefill
+\input{resume/profile_industry_}
+
+\end{document}
