@@ -1,0 +1,325 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Mohammed Laeeq Shaikh} \\ \vspace{1pt}
+    \small +91-8999195755 $|$ \href{mailto:laeeqentc@gmail.com}{\underline{laeeqentc@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/mohdlaeeq}{\underline{Linkedin}} $|$
+    \href{https://github.com/laeeqentc}{\underline{Github}}
+\end{center}
+%-------------summary -----
+   \section{Summary}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+    	{
+    		\resumeItem{Working with \textbf{Wipro} as a \textbf{Senior Software Engineer}, with \textbf{Cisco} as client. Work is on Cisco's line of products namely \textbf{Cisco Meeting Server}. These are secure, video, audio, and web communication products.}
+           
+            \resumeItem{Diverse work experience \textbf{(11 years)} across IT industry \textbf{(7 years)} and academia \textbf{(4 years)} alike. From roles of Software engineer, to Researcher alike.}\\
+            
+            \resumeItem{Skills and Experience in development of Firmware, Device Drivers, Embedded Applications etc with Embedded Linux, RTOS over AVR, ARM, RISC, Intel x86 platforms.}\\
+            
+            \resumeItem{Skills in  \textbf{Python (Beginner)}, \textbf{C (Advanced)}, \textbf{Embedded Linux (Advanced)}. Exposure to complete SDLC and Agile processes, Scrum, GIT with many open source frameworks and libraries.}\\
+            \resumeItemListEnd 
+        }
+%            \item {Passionate about achievements, 2 years of entrepreneurial experience spanning technical, management and leadership related tasks. Conducted numerous educational workshops all over the country catering to 3000+ participants} \\
+            
+%           \item {Firmly believe that learning never stops. Certified Six sigma Green belt from ASCB (UK). Numerous MOOC courses from Coursera, Edx, Udemy under study day in and day out} \\
+            
+ %           \item {Specialties: Proven track record with Workshops, Training's and Embedded Systems Product development}\\
+            
+ %           \item {Attended numerous workshops, training, seminars and conferences. Improved my skills, knowledge and expanded professional business contacts. Inspired by Maths, People, Life,  and this beautiful world, we call home}\\
+%\resumeItemListEnd
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+    \item {\textbf{Product}
+    {: Embedded Systems, Embedded Software, Embedded Linux, Buildroot, Yocto, Secureboot}}
+    }
+    \item {\textbf{Languages}
+    {: C, Embedded C, Python, BASH Shell scripting, \LaTeX, Assembly, RUST}}
+    \item  \textbf{Hardware}
+    {: 8051, AVR, ARM, BlackFin, x86, RISC-V \textbf{Platforms}: Arduino, Rasberry Pi}
+    \item  \textbf{Protocols}
+    {: TCP/IP, UDP, UART, USART, SPI, I2C, USB, CC2500, WiFi, ZigBee, 802.x, CAN, Ethernet, FlexRay, network drives, and protocol stacks in IR 4.0 and in IOT, IOT-Ops, IOT-OS}
+    \item  \textbf{Software Frameworks and Libraries}
+    {: MATLAB, GNU Octave, GIT, OpenCV, OpenCL, H.264, H.265, OpenMP, various open source libraries and frameworks}
+    \item  \textbf{Operating System}
+    {: Ubuntu, Red Hat Linux RHEL 4/Fedora, Android, Embedded Linux, uClinux, Vmware EXSI, Virtualbox}
+    \item  \textbf{Cloud}
+    {: AWS, GCP, Azure, Docker, Kubernetes, GIT, Containers, JIRA, GitHub, GitLab, Bitbucket, Jenkins}
+    
+ \end{itemize}
+%--------proficency part ----
+\section{Proficiency}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+    \item {Product}
+    {\textbf{: Board bring up(4/5), Linux Kernel internals(3/5), Secureboot(5/5)}}
+    
+    \item {Programming}
+    {\textbf{: C (5/5), Python (4/5), BASH (4/5), C++ (2/5)}}
+
+    \item {OS}
+    {\textbf{: Linux (5/5), Embedded Linux (5/5), Android (5/5)
+    }}
+    \item {Cloud}
+    {\textbf{: Docker (4/5), Google Cloud (3/5), AWS (3/5), Azure (3/5), Kubernetes (3/5)}}
+
+    \item {Soft-skills}
+    {\textbf{: Communication skills (5/5), Mentoring (4/5), Workshops (4/5), Leadership (3/5)}
+    }
+
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Senior Software Engineer}{May 2022 - till date | 4 years 5 months}
+      {Wipro (parent) Cisco (client)}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{The underlying work is on Cisco UCS (Unified Computing System) and on Cisco's CMS (Cisco Meeting Server)}
+        \resumeItem{Leading design, development and  maintenance with the Platform team. Responsibility is on the OS side, Linux kernel, device drivers, libraries up-gradation, application support etc.}
+        \resumeItem{Optimizing performance and security of CMS1k, CMS2k. Resolving JIRA tickets for bugs, CVEs,}
+        \resumeItem{Knowledge and skills on: \textbf{Virtualization}: Docker, Containers, Hypervisor \textbf{Programming}: Buildroot, Linux, C, Shell scripting \textbf{Build}: Jenkins, Git: bitbucket, GitHub, Cisco UCS server, \textbf{Libraries and Tools}: Ansible, Jira, Vmware EXSI, Embedded Linux, OpenSSL, OpenSSH, CiscoSSL, CMS-GCC-toolchain, etc.}
+        \resumeItem{Leading SecureBoot feature implementation right from Bootloader (Uboot, Grub), to kernel (encryption with security certificates), to application.}
+        
+      \resumeItemListEnd
+
+      \resumeSubheading
+     {Assistant Professor} {March 2016 - April 2018 | 2 year 1 month}
+     {MIT (Maharashtra Institute Of Technology)}{Aurangabad, Maharashtra, India}
+     \resumeItemListStart
+        \resumeItem{I was working as an Assistant Professor in the Department of Electronics and Telecommunication. Responsibilities include Academics, Administration and Research activities.}
+    \resumeItem{I was teaching the courses of ETC421: Advanced Embedded Systems Design, and ETC320: Radar and Satellite communication.}
+    %\resumeItem{My most notable achievements include patents in the domain of IOT, 5G and UAVs which was well appreciated by the management.}
+            
+         \resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheading
+{PHD Researcher}{ Sept 2013 - March 2015 | 1 year 6 months}
+{TU Ilmenau Germany}{Ilmenau, Thuringia, Germany}
+\resumeItemListStart
+        \resumeItem{I was working as a PhD student in the graduate school in mobile communications (GS MOBICOM), TU Ilmenau, Germany}
+        \resumeItem{My work was at the intersection of Embedded Systems, Digital Communications, and Artificial Intelligence, the topic being "Self Organized Multi UAV Message Ferrying".I had to discontinue as our graduate school was dissolved due to the cancellation of funding.}
+        
+        \resumeItemListEnd
+
+    \resumeSubheading
+    {Software Engineer} { May 2012 - November 2012 | 7 months}
+    {mAmigo Inc. (Now Seastar)}{Bangalore, Karnataka, India}
+    \resumeItemListStart
+        \resumeItem{I worked with mAmigo Inc. as a Software engineer on embedded projects. Primarily involved in IRIS based bio-metric security device.}
+        
+        \resumeItem {Implementing Board bring up: From boot loaders, kernel images of Linux \& uClinux, device drivers to end applications, using build tools like OE ie Open embedded, buildroot etc. on ARM and Blackfin platforms}
+            %
+        %\resumeItem{Implementing Application porting and  involving various peripherals like Timers, USB, SD MMC, Audio, Camera etc. using numerous open source libraries and frameworks.}
+        \resumeItemListEnd        
+    
+%\textbf{EasyARM}\hfill{Bangalore, Karnataka, India}
+%\newline
+%\textbf{Founding Employee}\hfill{\textbf{16 months} | Dec 2010 - April 2012}
+%\begin{itemize}
+ %           \item {Along with my MS studies, chased my dream of creating a company from scratch. I was the very first employee of EasyARM.} 
+                %
+                %\item{Initially, started with training's in Linux, Android and ARM verticals. Intensified efforts and went in detail of these 3 focus areas. Designed Workshops included practicals and hands on labs. Conducted workshops for students, working professionals and leading corporate companies in the Embedded space.}
+                %
+                %\item {Conceptualized and executed many plans at a technical and management level, achieved numerous milestones along the way. It was successfully acquired by Phytec Gmbh (Germany) PS refer www.easyarm.com, www.easyarmlabs.com}
+%\end{itemize}
+
+\resumeSubheading
+{Technical Associate R\&D}{January 2009 - June 2010 | 1 year 6 months}
+{ThinkLABS Technosolutions Pvt. Ltd.}{SINE IIT Bombay, Mumbai}
+
+    \resumeItemListStart
+            \resumeItem {I worked with ThinkLABS ( SINE, IITB) initially as an intern followed by a full-term employment. Our focus was in Robotics and Embedded Systems. Being involved in the design, development, test and improvement phases both hardware and software of products}
+            %
+            %\item {Ported uCOS and developed other applications on uNIBoard along with a team. Conducted numerous workshops, and activities for long term Embedded Training especially with RTOS ( uCOS 2).}
+            %
+            %\item {Developed and conducted numerous Robotics workshops and Embedded educational trainings, all across the country right from an engineering college level to the corporate level}
+            %
+            %\item {Developed and tested along with a team the back end libraries of peripherals, memories, wireless modules (CC2500) on the Atmega family. These were used in products of iPitara, CiMPLE and uNiBoard.}
+
+        \resumeItemListEnd
+
+
+%-----------PROJECTS-----------
+%\section{Projects}
+ %   \resumeSubHeadingListStart
+  %    \resumeProjectHeading
+   %       {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+    %      \resumeItemListStart
+            
+     %       \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+      %    \resumeItemListEnd
+    %\resumeSubHeadingListEnd
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr. Babasaheb Ambedkar Marathwada University}{Aurangabad, Maharashtra}
+      {B.Tech in Electronics and Telecommunication Engineering}{May 2005 - May 2009}
+    \resumeSubheading
+      {MSRSAS (Bangalore) Affiliated to Coventry University UK}{Bangalore, India}
+      {M.S. [Engineering] in Real Time Embedded Systems}{Sept 2010 - May 2012}
+      %malaysia utm phd 
+      \resumeSubheading
+      {Universiti Teknologi Malaysia}{JB Malaysia}
+      {PhD (AI for V2X communications) (Pursuing)}{April 2019 - till date}
+
+  \resumeSubHeadingListEnd
+\begin{center}
+    
+        \vspace{3mm}
+        Name: Mohammed Laeeq Shaikh\\
+        
+        Date of birth: 11th March 1987\\
+        
+        Martial status: Married\\
+        
+        Current Location: Chhatrapati Sambhajinagar (Aurangabad) Maharashtra 431001\\
+        
+        Preferred Location: Mumbai, Pune, Nagpur, Nashik, Hyderabad, Bangalore \\
+        
+        Notice period: 30 days\\
+        \vspace{3mm}
+        %\url{http://www.infinite-loop.in}\\ [1\baselineskip]
+        %\textbf{Language:} English (Advanced), Hindi (Advanced), Urdu (Intermediate), Marathi(Intermediate), Arabic (basic)
+%        Made with {\textcolor{red}{\varheartsuit}} in India, in \LaTeX\\ [1\baselineskip]
+        Last update: \today \\
+        \vspace{3mm}
+        %Made with \large {\color{red}{\ding{170}}} \space in \LaTeX \space \\%\heart \space 
+%\varheartsuit
+%\ding{168}              % club
+ % diamond
+%\color{red}\ding{170} % heart
+%\ding{171}              % spade
+
+\end{center}
+%-------------------------------------------
+\end{document}
